@@ -1,0 +1,10 @@
+# node 依赖模块
+node_modules
+
+dist
+
+
+# HBuilder 自己的插入的内容
+.metadata
+proxy.properties
+Tips.txt
