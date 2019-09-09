@@ -1,7 +1,6 @@
 # node 依赖模块
 node_modules
 
-dist
 yarn.lock
 
 
