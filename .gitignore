@@ -2,6 +2,7 @@
 node_modules
 
 dist
+yarn.lock
 
 
 # HBuilder 自己的插入的内容
