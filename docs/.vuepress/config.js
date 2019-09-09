@@ -1,10 +1,20 @@
 module.exports = {
-    title: '蜗牛飞鱼',
-    description: '一种只吃蜗牛的淡水鱼，',
+    title: 'Neal\'s web site',
+    description: 'A website made by Neal',
     head: [
         ['link', { rel: 'icon', href: '/public/img/favicon.ico' }],
         // ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
+    // configureWebpack: {
+    //     resolve: {
+    //       alias: {
+    //         '@alias': 'path/to/some/dir'
+    //       }
+    //     }
+    // },
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         searchMaxSuggestions: 6,
         lastUpdated: 'Last Updated', // string | boolean
