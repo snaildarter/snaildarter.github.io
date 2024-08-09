@@ -1,31 +1,7 @@
 module.exports = {
   title: '蜗牛飞鱼',
   description: '一种只吃蜗牛的淡水鱼，生命短暂，把握当下',
-  head: [
-    ['link', { rel: 'icon', href: '/public/img/favicon.ico' }],
-    [
-      'link',
-      {
-        rel: 'preload',
-        href: 'https://cdn.shareaholic.net/assets/pub/shareaholic.js',
-      },
-    ],
-    [
-      'meta',
-      {
-        name: 'shareaholic:site_id',
-        content: '68ac5d11807d06d253106ce8aa891ec0',
-      },
-    ],
-    [
-      'script',
-      {
-        'data-cfasync': 'false',
-        async: 'true',
-        src: 'https://cdn.shareaholic.net/assets/pub/shareaholic.js',
-      },
-    ],
-  ],
+  head: [['link', { rel: 'icon', href: '/public/img/favicon.ico' }]],
   themeConfig: {
     searchMaxSuggestions: 6,
     lastUpdated: 'Last Updated', // string | boolean
