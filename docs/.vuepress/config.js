@@ -14,7 +14,7 @@ module.exports = {
       'meta',
       {
         name: 'shareaholic:site_id',
-        content: '8d83ce80426b20985cbde0f9e44a0ba7',
+        content: '68ac5d11807d06d253106ce8aa891ec0',
       },
     ],
     [
