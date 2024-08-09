@@ -1,21 +1,40 @@
 module.exports = {
-  title: "蜗牛飞鱼",
-  description: "一种只吃蜗牛的淡水鱼，",
+  title: '蜗牛飞鱼',
+  description: '一种只吃蜗牛的淡水鱼，',
   head: [
-    ["link", { rel: "icon", href: "/public/img/favicon.ico" }],
-    ['link', { rel: 'preload', href: 'https://cdn.shareaholic.net/assets/pub/shareaholic.js' }],
-    ['meta', { name: 'shareaholic:site_id', content: '8d83ce80426b20985cbde0f9e44a0ba7' }],
-    ['script', { 'data-cfasync': 'false', auync: 'true' src: 'https://cdn.shareaholic.net/assets/pub/shareaholic.js' }],
+    ['link', { rel: 'icon', href: '/public/img/favicon.ico' }],
+    [
+      'link',
+      {
+        rel: 'preload',
+        href: 'https://cdn.shareaholic.net/assets/pub/shareaholic.js',
+      },
+    ],
+    [
+      'meta',
+      {
+        name: 'shareaholic:site_id',
+        content: '8d83ce80426b20985cbde0f9e44a0ba7',
+      },
+    ],
+    [
+      'script',
+      {
+        'data-cfasync': 'false',
+        async: 'true',
+        src: 'https://cdn.shareaholic.net/assets/pub/shareaholic.js',
+      },
+    ],
   ],
   themeConfig: {
     searchMaxSuggestions: 6,
-    lastUpdated: "Last Updated", // string | boolean
+    lastUpdated: 'Last Updated', // string | boolean
     algolia: {
-      apiKey: "<API_KEY>",
-      indexName: "<INDEX_NAME>",
+      apiKey: '<API_KEY>',
+      indexName: '<INDEX_NAME>',
     },
     nav: [
-      { text: "主页", link: "/" },
+      { text: '主页', link: '/' },
       // { text: '博文',
       //   items: [
       //     { text: 'node', link: '/node/' },
