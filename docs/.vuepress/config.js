@@ -3,7 +3,9 @@ module.exports = {
   description: "一种只吃蜗牛的淡水鱼，",
   head: [
     ["link", { rel: "icon", href: "/public/img/favicon.ico" }],
-    // ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'preload', href: 'https://cdn.shareaholic.net/assets/pub/shareaholic.js' }],
+    ['meta', { name: 'shareaholic:site_id', content: '8d83ce80426b20985cbde0f9e44a0ba7' }],
+    ['script', { 'data-cfasync': 'false', auync: 'true' src: 'https://cdn.shareaholic.net/assets/pub/shareaholic.js' }],
   ],
   themeConfig: {
     searchMaxSuggestions: 6,
