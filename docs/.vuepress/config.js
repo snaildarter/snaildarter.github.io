@@ -1,6 +1,6 @@
 module.exports = {
   title: '蜗牛飞鱼',
-  description: '一种只吃蜗牛的淡水鱼，',
+  description: '一种只吃蜗牛的淡水鱼，生命短暂，把握当下',
   head: [
     ['link', { rel: 'icon', href: '/public/img/favicon.ico' }],
     [
